@@ -1,0 +1,17 @@
+:root {
+  /* Base */
+  --color-black: #000000;
+  --color-dark: #18181c;
+  --color-gray-dark: #2a2a2e;
+  --color-gray: #3a3a3f;
+  --color-gray-light: #8a8a8f;
+  --color-white: #ffffff;
+}
+header {
+    background-color: var(--color-dark)
+
+}
+
+body{
+    background-color: var(--color-black)
+  }
