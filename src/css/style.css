@@ -7,13 +7,16 @@
   --color-gray-light: #8a8a8f;
   --color-white: #ffffff;
 }
+
 header {
     background-color: var(--color-dark)
-
 }
+
  body {
+  height: 1000px;
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: var(--color-white);
 }
 
 .navbar {
@@ -44,20 +47,19 @@ header {
 .nav-links a:hover {
   text-decoration: underline;
 }
-body{
-    background-color: var(--color-white)
-  }
-  .cards {
-    display: flex;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
+
+.cards {
+  display: flex;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .cards img {
   width: 300px;
   height: 300px;
@@ -75,13 +77,18 @@ body{
   margin-bottom: 50px;
 }
 
-.cards img:hover {
+.cards :hover {
   transform: scale(1.05);
   transition: 0.3s;
 }
 
-.redes{
+footer{
   background-color: #8a8a8f;
+  margin: 0;
+  padding: 10px;
+  margin-top: 200px;
+}
+.redes{
   display: flex;
   justify-content: center;
   gap: 10px;
