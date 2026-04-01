@@ -1,3 +1,3 @@
 function alertaCarrinho () {
-    alert("Adicionado no Carrinho");
+    alert("Item adicionado no carrinho");
 }
