@@ -1,5 +1,5 @@
 :root {
-  /* Base */
+
   --color-black: #000000;
   --color-dark: #18181c;
   --color-gray-dark: #2a2a2e;
@@ -11,7 +11,36 @@ header {
     background-color: var(--color-dark)
 
 }
+ body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-body{
-    background-color: var(--color-white)
-  }
+.navbar {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 20px 20px; 
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 25px;
+}
+
+.nav-links {
+  margin-left: auto; 
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
