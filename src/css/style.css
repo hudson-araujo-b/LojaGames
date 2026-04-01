@@ -71,9 +71,10 @@ header {
   border: 3px solid var(--color-gray);
   border-radius: 20px;
   padding: 10px;
-  width: 320px;
+  width: 335px;
   text-align: center;
   transition: 0.3s;
+  margin-bottom: 50px;
 }
 
 .cards :hover {
