@@ -9,7 +9,13 @@
 }
 
 header {
-    background-color: var(--color-dark)
+    background-color: var(--color-dark);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
 }
 
  body {
@@ -20,6 +26,10 @@ header {
 }
 
 .navbar {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
   background-color: #1e1e2f;
   color: white;
   padding: 20px 20px; 
@@ -86,6 +96,7 @@ footer{
   background-color: #8a8a8f;
   margin: 0;
   padding: 10px;
+  margin-top: 200px;
 }
 .redes{
   display: flex;
