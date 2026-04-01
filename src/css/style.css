@@ -74,7 +74,7 @@ body{
   transition: 0.3s;
 }
 
-.cards img:hover {
+.cards div:hover {
   transform: scale(1.05);
   transition: 0.3s;
 }
