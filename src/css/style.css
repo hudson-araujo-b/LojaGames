@@ -77,7 +77,7 @@ header {
   margin-bottom: 50px;
 }
 
-.cards :hover {
+.cards div:hover {
   transform: scale(1.05);
   transition: 0.3s;
 }
