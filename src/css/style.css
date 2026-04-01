@@ -102,3 +102,6 @@ footer{
 #inicio p {
   font-size: 2rem;
 }
+*{
+  scroll-behavior: smooth;
+}
