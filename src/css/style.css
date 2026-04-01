@@ -74,12 +74,11 @@ body{
   transition: 0.3s;
 }
 
-.cards img:hover {
+.cards :hover {
   transform: scale(1.05);
   transition: 0.3s;
 }
 
-<<<<<<< rodape
 .redes{
   background-color: #8a8a8f;
   display: flex;
@@ -93,8 +92,6 @@ body{
   height: auto;
 }
 
-=======
 #inicio p {
   font-size: 2rem;
 }
->>>>>>> main
