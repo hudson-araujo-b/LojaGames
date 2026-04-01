@@ -79,3 +79,6 @@ body{
   transition: 0.3s;
 }
 
+#inicio p {
+  font-size: 2rem;
+}
